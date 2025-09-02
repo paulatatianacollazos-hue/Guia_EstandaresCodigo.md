@@ -101,7 +101,7 @@ def login():
         if not usuario_encontrado:
             mensaje = "Correo o contraseña incorrectos"
 
-    return render_template("principal.html", mensaje=mensaje)
+    return render_template("index.html", mensaje=mensaje)
 
 
 if __name__ == "__main__":
